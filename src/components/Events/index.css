@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.events-container {
+  background-color: #3a4b63;
+  width: 60%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.event-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.event-heading {
+  color: #ffffff;
+  font-family: roboto;
+}
+
+.registration-status-container {
+  background-color: #ffffff;
+  width: 40%;
+}
